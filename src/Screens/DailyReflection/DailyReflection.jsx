@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import bottomImg from "../../assets/Images/Daily Reflection.png";
-
+// import bottomImg from "../../assets/Images/Daily Reflection.png";
+import daily from "../../assets/Images/Daily Reflection-image.png";
 function DailyReflection() {
   const [currentDate, setCurrentDate] = useState(new Date());
   const [selectedDate, setSelectedDate] = useState(new Date());
@@ -110,14 +110,13 @@ function DailyReflection() {
               தினமும் நம் சிந்தனைக்கு
             </h1>
             <div className="space-y-4 text-gray-700 leading-relaxed text-justify f6">
-              <p className="text-lg font-semibold text-blue-800">
+              <p className="text-xl font-semibold text-red-800">
                 {reflection.caption}
               </p>
-              <p className="text-xl font-bold">{reflection.title}</p>
-              <p className="text-md italic">{reflection.subTitle}</p>
-              <p className="text-lg">{reflection.content}</p>
+              <p className="text-lg font-bold">{reflection.content}</p>
 
-              {/* Optional fields */}
+              <p className="text-md italic f4">{reflection.subTitle}</p>
+              <p className="text-xl">{reflection.title}</p>
               {reflection.tags?.length > 0 && (
                 <p className="text-sm text-gray-500">
                   Tags: {reflection.tags.join(", ")}
@@ -205,7 +204,7 @@ function DailyReflection() {
       {/* Bottom Decoration */}
       <div className="w-full">
         <img
-          src={bottomImg}
+          src={daily}
           alt="reflection decoration"
           className="w-full h-auto sm:h-[500px] md:h-[600px] lg:h-610px] object-cover"
         />

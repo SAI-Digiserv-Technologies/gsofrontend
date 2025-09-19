@@ -85,7 +85,6 @@ i18n.use(initReactI18next).init({
                         { number: "1M+", label: "People's Recovered", highlight: true }
                     ]
                 },
-
                 footer: {
                     home: "Home",
                     about: "About AA",
@@ -93,8 +92,8 @@ i18n.use(initReactI18next).init({
                     meetings: "Meeting List",
                     selftest: "Self Test",
                     contact: "Where to find us",
+                    links: "Links"
                 },
-
                 footerpara: {
                     title: " Rejecting external aid. A global organization with their own self- support",
                     subtitle: " A.A. costs nothing and is supported through member contributions, so there are no dues or fees for A.A. membership."
@@ -108,7 +107,6 @@ i18n.use(initReactI18next).init({
                     helpline: "Helpline : +91 9884447648",
                     address: "4/189A,1st Street , MMDA Colony Main Road , \nMaduravoyal, Chennai - 600095 , Tamilnadu, INDIA"
                 },
-
                 selftest: {
                     title: "Are you an Alcoholic?",
                     note: "*Answer these questions truthfully. Always consult a doctor for proper medical advice.",
@@ -140,6 +138,57 @@ i18n.use(initReactI18next).init({
                     next: "Next",
                     submit: "Submit",
                     bottomNote: "If you answered 'Yes' to three or more questions, you are definitely an alcoholic. (These questions are adapted from Johns Hopkins University, Baltimore, USA)."
+                },
+                stepspage: {
+                    title: "Unity",
+                    list: [
+                        "We admitted we were powerless over alcohol — that our lives had become unmanageable.",
+                        "Came to believe that a Power greater than ourselves could restore us to sanity.",
+                        "Made a decision to turn our will and our lives over to the care of God as we understood Him.",
+                        "Made a searching and fearless moral inventory of ourselves.",
+                        "Admitted to God, to ourselves, and to another human being the exact nature of our wrongs.",
+                        "Were entirely ready to have God remove all these defects of character.",
+                        "Humbly asked Him to remove our shortcomings.",
+                        "Made a list of all persons we had harmed, and became willing to make amends to them all.",
+                        "Made direct amends to such people wherever possible, except when to do so would injure them or others.",
+                        "Continued to take personal inventory and when we were wrong promptly admitted it.",
+                        "Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His will for us and the power to carry that out.",
+                        "Having had a spiritual awakening as the result of these Steps, we tried to carry this message to alcoholics, and to practice these principles in all our affairs."
+                    ]
+                },
+                stepspage1: {
+                    title: "Recovery",
+                    list: [
+                        'Our common welfare should come first; personal recovery depends upon A.A. unity',
+                        'For our group purpose there is but one ultimate authority — a loving God as He may express Himself in our group conscience. Our leaders are but trusted servants; they do not govern',
+                        'The only requirement for A.A. membership is a desire to stop drinking',
+                        'Each group should be autonomous except in matters affecting other groups or A.A. as a whole',
+                        'Each group has but one primary purpose — to carry its message to the alcoholic who still suffers',
+                        ' An A.A. group ought never endorse, finance, or lend the A.A. name to any related facility or outside enterprise, lest problems of money, property, and prestige divert us from our primary purpose',
+                        ' Every A.A. group ought to be fully self-supporting, declining outside contributions.',
+                        'Alcoholics Anonymous should remain forever non-professional, but our service centers may employ special workers.',
+                        'A.A., as such, ought never be organized; but we may create service boards or committees directly responsible to those they serve.',
+                        'Alcoholics Anonymous has no opinion on outside issues; hence the A.A. name ought never be drawn into public controversy.',
+                        'Our public relations policy is based on attraction rather than promotion; we need always maintain personal anonymity at the level of press, radio, and films.',
+                        'Anonymity is the spiritual foundation of all our traditions, ever reminding us to place principles before personalities.'
+                    ]
+                },
+                stepspage2: {
+                    title: "Service",
+                    list: [
+                        ' Final responsibility and ultimate authority for A.A. world services should always reside in the collective conscience of our whole Fellowship',
+                        'The General Service Conference of A.A. has become, for nearly every practical purpose, the active voice and the effective conscience of our whole society in its world affairs.',
+                        'To insure effective leadership, we should endow each element of A.A.—the Conference, the General Service Board and its service corporations, staffs, committees, and executives—with a traditional “Right of Decision.',
+                        'At all responsible levels, we ought to maintain a traditional “Right of Participation,” allowing a voting representation in reasonable proportion to the responsibility that each must discharge.',
+                        'Throughout our structure, a traditional “Right of Appeal” ought to prevail, so that minority opinion will be heard and personal grievances receive careful consideration.',
+                        'The Conference recognizes that the chief initiative and active responsibility in most world service matters should be exercised by the trustee members of the Conference acting as the General Service Board.',
+                        'The Charter and Bylaws of the General Service Board are legal instruments, empowering the trustees to manage and conduct world service affairs. The Conference Charter is not a legal document; it relies upon tradition and the A.A. purse for final effectiveness.',
+                        'The trustees are the principal planners and administrators of over-all policy and finance. They have custodial oversight of the separately incorporated and constantly active services, exercising this through their ability to elect all the directors of these entities. ',
+                        'Good service leadership at all levels is indispensable for our future functioning and safety. Primary world service leadership, once exercised by the founders, must necessarily be assumed by the trustees. ',
+                        'Every service responsibility should be matched by an equal service authority, with the scope of such authority well defined.',
+                        'The trustees should always have the best possible committees, corporate service directors, executives, staffs, and consultants. Composition, qualifications, induction procedures, and rights and duties will always be matters of serious concern',
+                        'The Conference shall observe the spirit of A.A. tradition, taking care that it never becomes the seat of perilous wealth or power; that sufficient operating funds and reserve be its prudent financial principle; that it place none of its members in a position of unqualified authority over others; that it reach all important decisions by discussion'
+                    ]
                 },
                 principles: {
                     title: "Unity • Recovery • Service",
@@ -284,6 +333,7 @@ i18n.use(initReactI18next).init({
                     meetings: "சந்திப்பு பட்டியல்",
                     selftest: "சுய பரிசோதனை",
                     contact: "எங்களை எங்கு காணலாம்",
+                    links: "இணைப்புகள்"
                 },
 
                 footerpara: {
@@ -316,6 +366,58 @@ i18n.use(initReactI18next).init({
                             desc: "செய்தியை பிறருக்கு எடுத்துச் சென்று, அன்பும் கருணையும் அர்ப்பணிப்புடன் நாம் சேவை செய்கிறோம்.",
                         },
                     ],
+                },
+                stepspage: {
+                    title: "ஒற்றுமை",
+                    list: [
+                        "நாங்கள் மதுபானத்தின் மீது வல்லமையற்றவர்கள் என்பதை ஒப்புக்கொண்டோம் — எங்கள் வாழ்க்கை கட்டுப்படுத்த முடியாததாகி விட்டது.",
+                        "எங்களை விட மேல் சக்தி ஒருவர் எங்களை அறிவு பூர்வமாக மீட்டுக் கொள்ள முடியும் என்று நம்பினோம்.",
+                        "எங்கள் சிந்தனையும் வாழ்க்கையும், எங்கள் புரிதலுக்கேற்ற கடவுளின் பாதுகாப்பிற்குள் ஒப்படைக்க முடிவு செய்தோம்.",
+                        "எங்களைப் பற்றிய தைரியமான மற்றும் முழுமையான ஒழுக்க சோதனையை மேற்கொண்டோம்.",
+                        "எங்கள் தவறுகளின் உண்மையான தன்மையை கடவுளிடம், எங்களிடம், மேலும் மற்றொரு மனிதரிடம் ஒப்புக்கொண்டோம்.",
+                        "எங்கள் குணக்குறைபாடுகளை கடவுள் நீக்குவதற்கு முழுமையாக தயார் ஆனோம்.",
+                        "எங்கள் குறைகளை நீக்கும்படி அவரை தாழ்மையுடன் வேண்டினோம்.",
+                        "எங்களால் பாதிக்கப்பட்ட அனைத்து மனிதர்களின் பட்டியலைச் செய்து, அனைவரிடமும் சமரசம் செய்யத் தயாரானோம்.",
+                        "அவர்களையோ, பிறரை யோ காயப்படுத்தாமல் நேரடியாக எங்கு சாத்தியமோ அங்கு சமரசம் செய்தோம்.",
+                        "தொடர்ந்து நம்மை சோதித்து, தவறு செய்தால் உடனடியாக ஒப்புக்கொண்டோம்.",
+                        "பிரார்த்தனை, தியானம் மூலம் எங்கள் புரிதலுக்கேற்ற கடவுளுடன் அறிவுப் பூர்வமான தொடர்பை மேம்படுத்த முயன்றோம் — எங்களுக்கு அவர் விரும்புவது என்ன, அதை நிறைவேற்ற வல்லமையை மட்டும் பிரார்த்தித்தோம்.",
+                        "இந்த படிகளின் விளைவாக ஆன்மீக விழிப்பு பெற்றோம்; அந்த செய்தியை மற்ற குடிபோதையாளர்களிடம் கொண்டு சென்று, இந்தக் கொள்கைகளை எங்கள் வாழ்க்கையின் எல்லா துறைகளிலும் கடைப்பிடிக்க முயன்றோம்."
+                    ]
+                },
+                stepspage1: {
+                    title: "மீட்பு",
+                    list: [
+                        "எங்களுடைய பொதுவான நலனே முதலில் இருக்க வேண்டும்; தனிப்பட்ட மீட்பு, A.A. ஒற்றுமையை சார்ந்ததே.",
+                        "எங்கள் குழுவின் நோக்கத்திற்கு ஒரே உயர் அதிகாரம் மட்டுமே உள்ளது — எங்கள் குழுவின் மனச்சாட்சியின் மூலம் வெளிப்படும் அன்பான கடவுள். எங்கள் தலைவர்கள் நம்பிக்கைக்குரிய ஊழியர்களே; அவர்கள் ஆட்சி செய்வதில்லை.",
+                        "A.A.வில் உறுப்பினராவதற்கான ஒரே தேவையானது குடிப்பதை நிறுத்த வேண்டும் என்ற விருப்பமே.",
+                        "ஒவ்வொரு குழுவும் தன்னாட்சி உடையதாக இருக்க வேண்டும், ஆனால் மற்ற குழுக்கள் அல்லது முழுமையான A.A.-ஐ பாதிக்கும் விஷயங்களில் விதிவிலக்காக.",
+                        "ஒவ்வொரு குழுவின் முதன்மை நோக்கம், இன்னும் அவதிப்படுகிற குடி நோயாளிகளுக்கு தனது செய்தியை கொண்டு சேர்ப்பதே.",
+                        "ஒரு A.A. குழு எப்போதும் எதையும் ஆதரிக்கவோ, நிதியளிக்கவோ அல்லது A.A. பெயரை தொடர்புடைய நிறுவனத்திற்கோ வெளிப்புற தொழில்களுக்கோ கடனாக அளிக்கக்கூடாது; இல்லையெனில் பணம், சொத்து, புகழ் போன்ற பிரச்சினைகள் எங்களை எங்கள் முதன்மை நோக்கத்திலிருந்து விலக்கி விடும்.",
+                        "ஒவ்வொரு A.A. குழுவும் முழுமையாக சுய ஆதரவை கொண்டிருக்க வேண்டும்; வெளிப்புற பங்களிப்புகளை நிராகரிக்க வேண்டும்.",
+                        "Alcoholics Anonymous என்ற அமைப்பு எப்போதும் தொழில்முறையற்றதாக இருக்க வேண்டும்; ஆனால் எங்கள் சேவை மையங்கள் சிறப்பு ஊழியர்களை பணியில் அமர்த்தலாம்.",
+                        "A.A. ஒருங்கிணைக்கப்படக்கூடாது; ஆனால் நாங்கள் சேவை வாரியங்கள் அல்லது குழுக்களை உருவாக்கலாம், அவர்கள் சேவை செய்யும் உறுப்பினர்களுக்கே நேரடியாக பொறுப்பாளிகளாக இருப்பார்கள்.",
+                        "Alcoholics Anonymous வெளிப்புற பிரச்சினைகள் குறித்து எந்த கருத்தும் கொள்ளாது; ஆகவே A.A. பெயர் எப்போதும் பொது விவாதங்களில் ஈடுபடக்கூடாது.",
+                        "எங்களுடைய பொது தொடர்பு கொள்கை, விளம்பரத்தை விட ஈர்ப்பை அடிப்படையாகக் கொண்டது; பத்திரிகை, வானொலி மற்றும் திரைப்படங்களில் எப்போதும் தனிப்பட்ட அநாமதேயத்தை பேண வேண்டும்.",
+                        "அநாமதேயம் என்பது எங்கள் அனைத்து பாரம்பரியங்களின் ஆன்மீக அடித்தளம்; அது எப்போதும் நம்மை நினைவூட்டுகிறது: தனிப்பட்டவர்களை விட கொள்கைகளுக்கு முன்னுரிமை தர வேண்டும்."
+                    ]
+                },
+
+                stepspage2: {
+                    title: "சேவை",
+                    list: [
+                        "A.A. உலக சேவைகளுக்கான இறுதி பொறுப்பும் உயர் அதிகாரமும் எப்போதும் எங்கள் முழு சகோதரத்துவத்தின் கூட்டு மனச்சாட்சியில் நிலைத்து இருக்க வேண்டும்.",
+                        "A.A. பொது சேவை மாநாடு, உலக விஷயங்களில் எங்கள் முழு சமூகத்தின் செயல்பாட்டு குரலாகவும், பயனுள்ள மனச்சாட்சியாகவும், கிட்டத்தட்ட அனைத்து நடைமுறை நோக்கங்களுக்கும் உருவாகியுள்ளது.",
+                        "திறமையான தலைமைத்துவத்தை உறுதிப்படுத்த, A.A.வின் ஒவ்வொரு கூறுக்கும் — மாநாடு, பொது சேவை வாரியம் மற்றும் அதன் சேவை நிறுவனங்கள், பணியாளர்கள், குழுக்கள் மற்றும் நிர்வாகிகள் — பாரம்பரியமான “முடிவெடுக்கும் உரிமை” வழங்கப்பட வேண்டும்.",
+                        "அனைத்து பொறுப்பான நிலைகளிலும், ஒவ்வொருவரும் ஏற்க வேண்டிய பொறுப்பிற்கு ஏற்ப வாக்களிக்கும் உரிமையுடன் கூடிய பாரம்பரியமான “பங்கேற்பு உரிமை” பராமரிக்கப்பட வேண்டும்.",
+                        "எங்கள் அமைப்பில் முழுவதும், பாரம்பரியமான “மேல்முறையீட்டு உரிமை” நிலவ வேண்டும், இதன் மூலம் குறைந்தபட்ச கருத்துக்களும் கேட்கப்படும், தனிப்பட்ட குறைகளும் கவனமாக பரிசீலிக்கப்படும்.",
+                        "மாநாடு, பெரும்பாலான உலக சேவை விஷயங்களில் முதன்மை முன்முயற்சியும் செயலில் பொறுப்பும் மாநாட்டின் நம்பிக்கையாளர்கள் பொது சேவை வாரியமாக செயல்படும் போது மேற்கொள்ளப்பட வேண்டும் என்பதை அங்கீகரிக்கிறது.",
+                        "பொது சேவை வாரியத்தின் சட்டப்பிரிவுகள் மற்றும் சட்டங்கள், உலக சேவை விவகாரங்களை நிர்வகிக்கவும் நடத்தவும் நம்பிக்கையாளர்களுக்கு அதிகாரமளிக்கும் சட்ட ஆவணங்களாகும். மாநாட்டு சட்டம் சட்ட ஆவணம் அல்ல; அது பாரம்பரியம் மற்றும் A.A.வின் நிதியை நம்புகிறது.",
+                        "நம்பிக்கையாளர்கள், மொத்தக் கொள்கை மற்றும் நிதி விவகாரங்களின் பிரதான திட்டமிடுவோர் மற்றும் நிர்வாகிகள். அவர்கள் தனித்தனியாக இணைக்கப்பட்ட மற்றும் தொடர்ந்து செயலில் இருக்கும் சேவைகளுக்கு பராமரிப்பு மேற்பார்வை செய்கிறார்கள், இதை அவர்கள் அந்த நிறுவனங்களின் அனைத்து இயக்குநர்களையும் தேர்ந்தெடுக்கும் தங்கள் அதிகாரத்தின் மூலம் செய்கிறார்கள்.",
+                        "அனைத்து நிலைகளிலும் நல்ல சேவைத் தலைமைத்துவம் எங்கள் எதிர்கால செயல்பாடு மற்றும் பாதுகாப்பிற்குத் தவிர்க்க முடியாதது. உலக சேவையின் முதன்மைத் தலைமைத்துவம், ஒருகாலத்தில் நிறுவுநர்களால் மேற்கொள்ளப்பட்டது, இப்போது அவசியமாக நம்பிக்கையாளர்களால் மேற்கொள்ளப்பட வேண்டும்.",
+                        "ஒவ்வொரு சேவை பொறுப்பும் சமமான சேவை அதிகாரத்துடன் பொருந்த வேண்டும், அத்தகைய அதிகாரத்தின் வரம்பு தெளிவாக வரையறுக்கப்பட வேண்டும்.",
+                        "நம்பிக்கையாளர்களிடம் எப்போதும் சிறந்த குழுக்கள், நிறுவன சேவை இயக்குநர்கள், நிர்வாகிகள், பணியாளர்கள் மற்றும் ஆலோசகர்கள் இருக்க வேண்டும். அமைப்பு, தகுதிகள், நியமன முறைகள், உரிமைகள் மற்றும் கடமைகள் எப்போதும் மிகுந்த கவலையாக இருக்கும்.",
+                        "மாநாடு எப்போதும் A.A. பாரம்பரியத்தின் ஆன்மாவைக் கடைப்பிடிக்க வேண்டும்; அது ஆபத்தான செல்வத்திற்கோ அதிகாரத்திற்கோ இருக்கக்கூடிய இடமாக மாறக்கூடாது; போதுமான செயல்பாட்டு நிதி மற்றும் இருப்பு அதன் விவேகமான நிதி கொள்கையாக இருக்க வேண்டும்; அது எந்த உறுப்பினரையும் மற்றவர்களுக்கு மீறிய முழுமையான அதிகாரத்தில் வைக்கக்கூடாது; அனைத்து முக்கிய முடிவுகளும் விவாதம், வாக்கெடுப்பு மற்றும் அதிகபட்ச ஒப்புதலின் மூலம் எடுக்கப்பட வேண்டும்."
+                    ]
                 },
 
             },

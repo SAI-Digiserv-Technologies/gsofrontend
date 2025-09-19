@@ -45,7 +45,7 @@ export default function Footer() {
             </div> */}
             <img src={logo} />
             <div className="space-y-6 text-sm sm:text-base text-slate-200 leading-relaxed text-justify">
-              <p className={`font-medium" }` }>{t("footerpara.title")}</p>
+              <p className={`font-medium" }`}>{t("footerpara.title")}</p>
               <p>{t("footerpara.subtitle")}</p>
             </div>
 
@@ -70,9 +70,10 @@ export default function Footer() {
             </div>
           </div>
           <nav aria-label="Footer" className="md:mx-auto text-justify f5">
-            <h3 className="mb-6 sm:mb-8 text-2xl sm:text-3xl font-bold text-white text-justify f4">
-              Links
+            <h3 className="mb-6 sm:mb-8 text-2xl sm:text-2xl font-bold text-white text-justify">
+              {t("footer.links")}
             </h3>
+
             <ul className="space-y-4 sm:space-y-6 text-slate-200 text-base sm:text-lg">
               <li>
                 <a
