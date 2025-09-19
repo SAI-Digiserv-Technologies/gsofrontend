@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css or App.css */
+
+/* Remove borders */
+.react-calendar {
+  @apply border-none bg-white;
+}
+
+/* Navigation (month bar) */
+.react-calendar__navigation {
+  @apply flex justify-between items-center bg-blue-900 text-white font-bold px-3 py-2;
+}
+.react-calendar__navigation button {
+  @apply text-white text-sm;
+}
+
+/* Weekdays row */
+.react-calendar__month-view__weekdays {
+  @apply bg-blue-100 text-gray-800 uppercase text-xs;
+}
+.react-calendar__month-view__weekdays abbr {
+  @apply no-underline;
+}
+
+/* Days (tiles) */
+.react-calendar__tile {
+  @apply text-center py-2 rounded-md transition duration-200;
+}
+.react-calendar__tile--active {
+  @apply bg-blue-600 text-white font-bold;
+}
+.react-calendar__tile:hover {
+  @apply bg-blue-200;
+}
