@@ -142,18 +142,18 @@ i18n.use(initReactI18next).init({
                 stepspage: {
                     title: "Unity",
                     list: [
-                        "We admitted we were powerless over alcohol — that our lives had become unmanageable.",
-                        "Came to believe that a Power greater than ourselves could restore us to sanity.",
-                        "Made a decision to turn our will and our lives over to the care of God as we understood Him.",
-                        "Made a searching and fearless moral inventory of ourselves.",
-                        "Admitted to God, to ourselves, and to another human being the exact nature of our wrongs.",
-                        "Were entirely ready to have God remove all these defects of character.",
-                        "Humbly asked Him to remove our shortcomings.",
-                        "Made a list of all persons we had harmed, and became willing to make amends to them all.",
-                        "Made direct amends to such people wherever possible, except when to do so would injure them or others.",
-                        "Continued to take personal inventory and when we were wrong promptly admitted it.",
-                        "Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His will for us and the power to carry that out.",
-                        "Having had a spiritual awakening as the result of these Steps, we tried to carry this message to alcoholics, and to practice these principles in all our affairs."
+                        "Our common welfare should come first; personal recovery depends upon A.A. unity.",
+                        "For our group purpose there is but one ultimate authority — a loving God as He may express Himself in our group conscience. Our leaders are but trusted servants; they do not govern.",
+                        "The only requirement for A.A. membership is a desire to stop drinking.",
+                        "Each group should be autonomous except in matters affecting other groups or A.A. as a whole.",
+                        "Each group has but one primary purpose — to carry its message to the alcoholic who still suffers.",
+                        "An A.A. group ought never endorse, finance, or lend the A.A. name to any related facility or outside enterprise, lest problems of money, property, and prestige divert us from our primary purpose.",
+                        "Every A.A. group ought to be fully self-supporting, declining outside contributions.",
+                        "Alcoholics Anonymous should remain forever non-professional, but our service centers may employ special workers.",
+                        "A.A., as such, ought never be organized; but we may create service boards or committees directly responsible to those they serve.",
+                        "Alcoholics Anonymous has no opinion on outside issues; hence the A.A. name ought never be drawn into public controversy.",
+                        "Our public relations policy is based on attraction rather than promotion; we need always maintain personal anonymity at the level of press, radio, and films.",
+                        "Anonymity is the spiritual foundation of all our traditions, ever reminding us to place principles before personalities."
                     ]
                 },
                 stepspage1: {
@@ -193,15 +193,16 @@ i18n.use(initReactI18next).init({
                 principles: {
                     title: "Unity • Recovery • Service",
                     items: [
-                        {
-                            title: "Unity",
-                            desc: "We come together with strength in unity, sharing hope and fellowship to heal as one.",
-                            href: '/steps'
-                        },
+
                         {
                             title: "Recovery",
                             desc: "A journey of change and growth, helping us live free from the struggles of addiction.",
                             href: '/steps1'
+                        },
+                        {
+                            title: "Unity",
+                            desc: "We come together with strength in unity, sharing hope and fellowship to heal as one.",
+                            href: '/steps'
                         },
                         {
                             title: "Service",
@@ -324,7 +325,7 @@ i18n.use(initReactI18next).init({
                     prev: "முந்தைய",
                     next: "அடுத்த",
                     submit: "சமர்ப்பிக்கவும்",
-                    bottomNote: "மூன்று தடவை அல்லது அதற்கு மேல் 'ஆமாம்' என்று பதிலளித்திருந்தால், நீங்கள் உறுதியாக ஒரு குடிநோயாளி. (மேற்கண்ட சோதனைக் கேள்விகள் அமெரிக்கா, பால்டிமோர் நகர ஜான் ஹாப்கின்ஸ் பல்கலைக்கழகத்தில் பயன்படுத்தப்படுகின்றன.)"
+                    bottomNote: "ஏதேனும் ஒரு கேள்விக்கு ஆம் என்று விடை சொல்லியிருந்தால் நீங்கள் ஒரு குடிநோயாளியாக இருக்கலாம் என்பதற்கு எச்சரிக்கையாகும். ஏதேனும் இரண்டிற்கு ஆம் என்று விடை சொல்லியிருந்தால் நீங்கள் குடிநோயாளியாக இருக்க வாய்ப்புகள் உண்டு. மூன்று தடவை அல்லது அதற்கு மேல் ஆம் என்று விடை சொல்லியிருந்தால் நீங்கள் உறுதியாக ஒரு குடிநோயாளிதான்.(மேற்கண்ட சோதனைக் கேள்விகள் ஒருவர் குடிநோயாளியா இல்லையா என்று தீர்மானிக்க அமெரிக்கா, பால்டிமோ நகர், ஜான் ஹாப்கின்ஸ பல்கலைக்கழகத்தினரால் பயன்படுத்தப்படுகின்றன. "
                 },
                 footer: {
                     home: "முகப்பு",
@@ -370,18 +371,18 @@ i18n.use(initReactI18next).init({
                 stepspage: {
                     title: "ஒற்றுமை",
                     list: [
-                        "நாங்கள் மதுபானத்தின் மீது வல்லமையற்றவர்கள் என்பதை ஒப்புக்கொண்டோம் — எங்கள் வாழ்க்கை கட்டுப்படுத்த முடியாததாகி விட்டது.",
-                        "எங்களை விட மேல் சக்தி ஒருவர் எங்களை அறிவு பூர்வமாக மீட்டுக் கொள்ள முடியும் என்று நம்பினோம்.",
-                        "எங்கள் சிந்தனையும் வாழ்க்கையும், எங்கள் புரிதலுக்கேற்ற கடவுளின் பாதுகாப்பிற்குள் ஒப்படைக்க முடிவு செய்தோம்.",
-                        "எங்களைப் பற்றிய தைரியமான மற்றும் முழுமையான ஒழுக்க சோதனையை மேற்கொண்டோம்.",
-                        "எங்கள் தவறுகளின் உண்மையான தன்மையை கடவுளிடம், எங்களிடம், மேலும் மற்றொரு மனிதரிடம் ஒப்புக்கொண்டோம்.",
-                        "எங்கள் குணக்குறைபாடுகளை கடவுள் நீக்குவதற்கு முழுமையாக தயார் ஆனோம்.",
-                        "எங்கள் குறைகளை நீக்கும்படி அவரை தாழ்மையுடன் வேண்டினோம்.",
-                        "எங்களால் பாதிக்கப்பட்ட அனைத்து மனிதர்களின் பட்டியலைச் செய்து, அனைவரிடமும் சமரசம் செய்யத் தயாரானோம்.",
-                        "அவர்களையோ, பிறரை யோ காயப்படுத்தாமல் நேரடியாக எங்கு சாத்தியமோ அங்கு சமரசம் செய்தோம்.",
-                        "தொடர்ந்து நம்மை சோதித்து, தவறு செய்தால் உடனடியாக ஒப்புக்கொண்டோம்.",
-                        "பிரார்த்தனை, தியானம் மூலம் எங்கள் புரிதலுக்கேற்ற கடவுளுடன் அறிவுப் பூர்வமான தொடர்பை மேம்படுத்த முயன்றோம் — எங்களுக்கு அவர் விரும்புவது என்ன, அதை நிறைவேற்ற வல்லமையை மட்டும் பிரார்த்தித்தோம்.",
-                        "இந்த படிகளின் விளைவாக ஆன்மீக விழிப்பு பெற்றோம்; அந்த செய்தியை மற்ற குடிபோதையாளர்களிடம் கொண்டு சென்று, இந்தக் கொள்கைகளை எங்கள் வாழ்க்கையின் எல்லா துறைகளிலும் கடைப்பிடிக்க முயன்றோம்."
+                        "நமது பொதுநலன் தான் நமக்கு முக்கியமானது. நாம்    குணமடைவது நமது ஒற்றுமையை பொறுத்திருக்கிறது.",
+                        "நமது குழுவின் நடவடிக்கைகளுக்கு அன்பான இறைவனே அதிகாரி --- அவர் நமது குழுவின் மனசாட்சியின் மூலம் தீர்மானத்தை வெளிப்படுத்துவார் என கருதுகிறோம். நமது தலைவர்கள் உண்மையில் நமது நம்பிக்கை பெற்ற சேவையாளர்கள்; அவர்கள் ஆதிக்கம் செலுத்துவதில்லை.",
+                        "குடிப்பதை நிறுத்த வேண்டும் என்ற விருப்பமே A.A வில் உறுப்பினராவதற்கு தேவையான ஒரே தகுதி.",
+                        "A.A வை மொத்தமாகவோ, மற்ற குழுக்களையோ பாதிக்காத விவகாரங்களில் ஒவ்வொரு குழுவும்  சுயேட்சையாகச் செயல்படும்.",
+                        "குடிநோயால் அவதிப்பட்டுக் கொண்டிருப்பவர்களுக்கு விடிவு உண்டு என்ற செய்தியை எடுத்துச் சொல்வது ஒவ்வொரு குழுவின் அடிப்படை நோக்கம்.",
+                        "A A குழுக்கள் தங்கள் ஆதரவு, பணம், பெயர் இவைகளை அதைப்போன்ற சம்பந்தப்பட்ட அமைப்பிற்கோ அல்லது வெளி நிறுவனங்களுக்கோ கொடுத்து உதவக்கூடாது. ஏனெனில் பணம் சொத்து புகழ் போன்றவை நம்மை நம்முடைய அடிப்படை நோக்கத்திலிருந்து திசைதிருப்பி விடலாம். ",
+                        "ஒவ்வொரு குழுவும் வெளி உதவியை மறுத்துத் தன் சொந்த பலத்தாலேயே இயங்க வேண்டும்.",
+                        " A. A என்றென்றும்  தொழில் அடிப்படையில்  செயல்படக்கூடாது.  ஆனால் நமது சேவை மையங்கள் சில வேலைகளுக்காக சிறப்பு பணியாளர்களை நியமிக்கலாம். ",
+                        "A. A வை கட்டுப்பாடு செய்யும் அமைப்பாக ஒருபோதும் நிறுவப்படக்கூடாது. ஆனால் தொண்டு செய்பவர்களுக்கு மட்டுமே பொறுப்பான சேவை மையம், சேவை குழு போன்றவைகளை உருவாக்கலாம். ",
+                        "வெளி விவகாரங்களைப் பற்றி A. A க்கு  அபிப்பிராயங்கள் கிடையாது. ஆகையால் பொதுக் கருத்து வேறுபாடுகளில் A A வின் பெயரை ஈடுபடுத்தக் கூடாது.",
+                        "நமது பொதுத் தொடர்பு கொள்கை எடுத்துக்காட்டு மூலம் இருக்க வேண்டுமே தவிர விளம்பரங்களால் அல்ல. பத்திரிகை, ரேடியோ, டிவி,  சினிமா  போன்றவைகளில் நம்மை தனிப்பட்ட முறையில் இன்னார் என்று வெளிப்படுத்தலாகாது.",
+                        "நாம் இன்னாரென்று வெளிப்படுத்தாமல் இருப்பதே நமது கோட்பாடுகளின் ஆன்மீக அஸ்திவாரம். இது தனிமனித ஆளுமையை விட நமது தத்துவங்கள் தான் முக்கியமென வலியுறுத்துகிறது."
                     ]
                 },
                 stepspage1: {

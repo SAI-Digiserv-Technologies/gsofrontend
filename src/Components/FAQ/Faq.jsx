@@ -35,7 +35,10 @@ export default function Questionnaire({ onSubmit }) {
   }
 
   const startIndex = page * questionsPerPage;
-  const currentQuestions = questions.slice(startIndex, startIndex + questionsPerPage);
+  const currentQuestions = questions.slice(
+    startIndex,
+    startIndex + questionsPerPage
+  );
 
   return (
     <>
@@ -58,10 +61,10 @@ export default function Questionnaire({ onSubmit }) {
                     <button
                       onClick={() => setAnswer(globalIndex, "yes")}
                       className={
-                        "px-6 py-2 rounded-lg border f5 " +
+                        "px-6 py-2 rounded-lg f5 transition " +
                         (answers[globalIndex] === "yes"
-                          ? "bg-green-500 border-green-600 shadow-md"
-                          : "bg-white/10 border-white/20 hover:bg-white/20")
+                          ? "bg-green-500 text-white shadow-md"
+                          : "bg-white/10 hover:bg-white/20 text-white")
                       }
                     >
                       {t("selftest.yes")}
@@ -69,10 +72,10 @@ export default function Questionnaire({ onSubmit }) {
                     <button
                       onClick={() => setAnswer(globalIndex, "no")}
                       className={
-                        "px-6 py-2 rounded-lg border f5" +
+                        "px-6 py-2 rounded-lg f5 transition " +
                         (answers[globalIndex] === "no"
-                          ? "bg-red-500 border-red-600 shadow-md"
-                          : "bg-white/10 border-white/20 hover:bg-white/20")
+                          ? "bg-red-500 text-white shadow-md"
+                          : "bg-white/10 hover:bg-white/20 text-white")
                       }
                     >
                       {t("selftest.no")}
@@ -82,7 +85,6 @@ export default function Questionnaire({ onSubmit }) {
               );
             })}
           </div>
-
           {/* Navigation Buttons */}
           <div className="flex justify-between mt-10">
             <button
@@ -104,7 +106,9 @@ export default function Questionnaire({ onSubmit }) {
               //   onClick={handleSubmit}
               //   className="px-5 py-2 rounded-md bg-white text-blue-900 font-semibold hover:opacity-90"
               // >
-                {/* {t("selftest.submit")} */}
+              {
+                /* {t("selftest.submit")} */
+              }
               // </button>
             )}
           </div>

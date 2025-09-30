@@ -21,8 +21,7 @@ const StepsPage2 = () => {
                                 key={i}
                                 whileHover={{ scale: 1.03 }}
                                 transition={{ type: "spring", stiffness: 200, damping: 12 }}
-                                className="bg-white shadow-md rounded-2xl p-6 border-l-4 border-cyan-600 hover:shadow-lg"
-                            >
+                                className="bg-white shadow-md rounded-2xl p-6 border-l-4 border-cyan-600 hover:shadow-lg">
                                 <div className="flex items-start">
                                     <span className="text-2xl font-bold text-cyan-600 mr-3">
                                         {i + 1}.
